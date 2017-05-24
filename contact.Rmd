@@ -7,9 +7,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-## Contact us
-
-Feel free to contact any of us to get more information about animal__nexus__. See our specialities for specific queries.
+Feel free to contact any of us to get more information about animal**nexus**. See our specialities for specific queries.
 
 __[Stefanie LaZerte](mailto:slazerte@tru.ca)__ (<slazerte@tru.ca>)  
 For anything related to the animal__nexus__ website or the 'feedr' package.

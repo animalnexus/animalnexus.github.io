@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-1.1/highlight.js"></script>
@@ -165,107 +162,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = false;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-.tocify-subheader {
-  display: inline;
-}
-.tocify-subheader .tocify-item {
-  font-size: 0.95em;
-}
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-inverse  navbar-fixed-top" role="navigation">
@@ -276,7 +172,7 @@ div.tocify {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">How to use animalnexus</a>
+      <a class="navbar-brand" href="index.html">About animalnexus</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -307,28 +203,35 @@ div.tocify {
 </div>
 
 
-<div id="faq" class="section level2">
-<h2>FAQ</h2>
-<ol style="list-style-type: decimal">
-<li>What is the difference between <code>feedr</code> and animal<strong>nexus</strong>?</li>
-</ol>
+<style>
+h4 {
+  margin-top: 0em !important;
+  padding-top: 2em !important;
+}
+</style>
+<div id="what-is-the-difference-between-feedr-and-animalnexus" class="section level4">
+<h4>1) What is the difference between <code>feedr</code> and animal<strong>nexus</strong>?</h4>
 <p><a href="http://github.com/steffilazerte/feedr">feedr</a> is an <a href="https://cran.r-project.org/">R</a> package for loading, cleaning, transforming and visualizing data collected on individual movements to and from static stations, especially RFID data.</p>
 <p>animal<strong>nexus</strong> is a webapp that allows users to apply functions from <code>feedr</code> to their data without have to use or even install R. If you have <code>feedr</code> installed on your computer, you can run this webapp locally from R using the function <code>animalnexus()</code>. However you will not have database access.</p>
-<ol start="2" style="list-style-type: decimal">
-<li>I need help!</li>
-</ol>
+</div>
+<div id="i-need-help" class="section level4">
+<h4>2) I need help!</h4>
 <p>Check out:</p>
 <ul>
 <li><a href="https://animalnexus.github.io/feedr/"><code>feedr</code> tutorials</a> for help scripting with the <code>feedr</code> package</li>
-<li>Help buttons () on the animal<strong>nexus</strong> website</li>
+<li>Help buttons (
+<button class="help" type="button">
+?
+</button>
+) on the animal<strong>nexus</strong> website</li>
 </ul>
-<ol start="3" style="list-style-type: decimal">
-<li>I have a function I wrote in R that would be useful, how can I get involved?</li>
-</ol>
+</div>
+<div id="i-have-a-function-i-wrote-in-r-that-would-be-useful-how-can-i-get-involved" class="section level4">
+<h4>3) I have a function I wrote in R that would be useful, how can I get involved?</h4>
 <p>Contact <a href="mailto:slazerte@tru.ca">Stefanie LaZerte</a>, or make a pull request on <a href="http://github.com/steffilazerte/feedr">github</a> we’d love to include your function!</p>
-<ol start="4" style="list-style-type: decimal">
-<li>I don’t know anything about R, can I still get involved?</li>
-</ol>
+</div>
+<div id="i-dont-know-anything-about-r-can-i-still-get-involved" class="section level4">
+<h4>4) I don’t know anything about R, can I still get involved?</h4>
 <p>Absolutely, there are many ways to get involved:</p>
 <ul>
 <li><a href="mailto:slazerte@tru.ca">let us know</a> if you find any bugs or errors</li>
@@ -336,14 +239,14 @@ div.tocify {
 <li><a href="mailto:dhill@tru.ca">share data</a> with our database</li>
 <li>use the <code>feedr</code> R package or use the animal<strong>nexus</strong> webapp and cite us in your publications!</li>
 </ul>
-<ol start="5" style="list-style-type: decimal">
-<li>Is my data secure if I share it?</li>
-</ol>
+</div>
+<div id="is-my-data-secure-if-i-share-it" class="section level4">
+<h4>5) Is my data secure if I share it?</h4>
 <p>For a given value of secure, yes. If you choose to share your data for visualizations only, you data won’t be available for download and users won’t be able to access the raw data.</p>
 <p>However, our system is not the kind of secure system you would expect from banks or online stores. This means that if someone were to maliciously attempt to grab your data from our site, they might succeed. We believe that this is unlikely, but if your data must be <strong>absolutely</strong> secure, we don’t recommend sharing it with us.</p>
-<ol start="6" style="list-style-type: decimal">
-<li>Is this a cloud hosting service for my data?</li>
-</ol>
+</div>
+<div id="is-this-a-cloud-hosting-service-for-my-data" class="section level4">
+<h4>6) Is this a cloud hosting service for my data?</h4>
 <p>No. The purpose of the animal<strong>nexus</strong> database is to share data for scientific or educational purposes. It is not a data backup service.</p>
 <hr />
 <p>Back to <a href="#top">top</a><br />
@@ -352,8 +255,6 @@ Start at the beginning <a href="index.html">Home</a></p>
 
 
 
-</div>
-</div>
 
 </div>
 

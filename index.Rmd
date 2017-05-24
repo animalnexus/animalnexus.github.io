@@ -6,11 +6,11 @@ title: "About"
 source("setup.R")
 ```
 
-The animal__nexus__ project is large collaborative effort to develop tools for the observation, visualization, and analysis of animal movements registered by RFID feeders or other static recording stations.
+The animal**nexus** project is large collaborative effort to develop tools for the observation, visualization, and analysis of animal movements registered by RFID feeders or other static recording stations.
 
 Our goals are to provide a tool that is easy to use, yet powerful. We hope that this project will be useful to scientists, citizen scientists, students and educators alike.
 
-If you're interested in contributing functionality and/or coding to this project, check out our project on <a href = 'http://github.com/steffilazerte/feedr/' target = 'blank'>GitHub <img src = 'GitHub-Mark-32px.png'></a>
+If you're interested in contributing functionality and/or coding to this project, check out our project on <a href = 'http://github.com/steffilazerte/feedr/' target = 'blank'>GitHub</a>
 
 
 We welcome all involvement!
@@ -18,13 +18,13 @@ We welcome all involvement!
 ----------------------------
 
 
-## animal__nexus__ and `feedr`
+## animal**nexus** and `feedr`
 
 The `feedr` package for R is a collection of functions and shiny apps designed to help with loading, checking, transforming and visualizing RFID data, or other data types collected from static stations. The `feedr` package can be found on [github](https://github.com/animalnexus/feedr) along with basic installation instructions.
 
 This package includes a companion website, <http://animalnexus.ca>, designed to provide a simple user-interface to access package functions and the animalnexus data base without having to use R.
 
-The R package provides all the functionality and is used by the web-app. Users familiar with R can download and install the R package, users who prefer a graphical user-interface can access most of the same functionality through the animal__nexus__ webapp.
+The R package provides all the functionality and is used by the web-app. Users familiar with R can download and install the R package, users who prefer a graphical user-interface can access most of the same functionality through the animal**nexus** webapp.
 
 
 ----------------------------
@@ -33,30 +33,30 @@ The R package provides all the functionality and is used by the web-app. Users f
 ## Our Reserach Projects
 
 ### TRU campus monitoring
-__Institution:__ [Thompson Rivers University](http://tru.ca)  
-__Funding Partners:__ [NSERC](http://www.nserc-crsng.gc.ca/index_eng.asp)  
-__People:__ Matt Reudink, Mark Paetkau, David J. Hill, Jackson Kusack, Alistair Sutter, Jerin Roberts, Jamie Shippit, Brandon Turner, Steffi LaZerte   
+**Institution:** [Thompson Rivers University](http://tru.ca)  
+**Funding Partners:** [NSERC](http://www.nserc-crsng.gc.ca/index_eng.asp)  
+**People:** Matt Reudink, Mark Paetkau, David J. Hill, Jackson Kusack, Alistair Sutter, Jerin Roberts, Jamie Shippit, Brandon Turner, Steffi LaZerte   
 
 Wifi enabled feeders automatically upload data on feeder use of common city birds (house finches, mountain chickadees, etc.). We're currently examining barriers to movement in an urban setting.  
 
 ### UNBC gap-crossing in chickadees  
-__Institution:__ [University of Northern British Columbia](http://unbc.ca)  
-__Funding Partners:__ [NSERC](http://www.nserc-crsng.gc.ca/index_eng.asp), [Environmental Dynamics Inc. (EDI)](http://www.edynamics.com/)   
-__People:__ Ken Otter, Jacob Baily, Steffi LaZerte   
+**Institution:** [University of Northern British Columbia](http://unbc.ca)  
+**Funding Partners:** [NSERC](http://www.nserc-crsng.gc.ca/index_eng.asp), [Environmental Dynamics Inc. (EDI)](http://www.edynamics.com/)   
+**People:** Ken Otter, Jacob Baily, Steffi LaZerte   
 
 Habitats gaps have been well documented to act as habitat barriers to bird movement, negatively effecting the dispersal of juveniles, and reducing genetic connectivity between populations. Our work uses a novel approach (radio-frequency identification - RFID) to assess the permeability of habitat gaps, and investigate what factors influence avian gap crossing decisions. Using bird feeders outfitted with RFID readers, we tracked the movement patterns of resident, wintering black-capped chickadees individually banded with passive integrated transponder (PIT) tags. Preliminary results support the prediction that gaps are perceived as movement barriers; bird movements between feeders on opposite sides of gaps were reduced compared to feeders on the same sides of habitat gaps.  
 
 ### SLU behaviour and movements of wintering birds  
-__Institution:__ [Swedish University for Agricultural Sciences (SLU)](http://www.slu.se/en/)   
-__Funding Partners:__ Bröderna Edlunds Fund    
-__People:__ Adriaan De Jong, Bo-Sören Wiklund, Holger Dettki, Ola Engman and students from Dragonskolan College  
+**Institution:** [Swedish University for Agricultural Sciences (SLU)](http://www.slu.se/en/)   
+**Funding Partners:** Bröderna Edlunds Fund    
+**People:** Adriaan De Jong, Bo-Sören Wiklund, Holger Dettki, Ola Engman and students from Dragonskolan College  
 
 At SLU campus in northern Sweden, studies of behaviour and movements of wintering birds are combined with the development of rugged high-tech RFID feeder/reader units for long-term monitoring under harsh climatic conditions.  
 
 ### OSU Community ecology of tropical pollinators  
-__Institution:__ [Oregon State University](http://oregonstate.edu/)   
-__Funding Partners:__ [NSF](http://www.nsf.gov/)   
-__People:__ Matt Betts, Evan Jackson   
+**Institution:** [Oregon State University](http://oregonstate.edu/)   
+**Funding Partners:** [NSF](http://www.nsf.gov/)   
+**People:** Matt Betts, Evan Jackson   
 
 Pollination is essential to human wellbeing, as well as fundamental to maintenance of biological diversity. Research showing large-scale declines of plants and pollinators highlights the concern that pollination is an ecosystem service at risk. Habitat loss and fragmentation have been implicated as primary drivers of pollination declines, but these observations contradict most model predictions indicating that pollinator networks should be resilient. Very recent theoretical models predict that if ‘keystone’ species are lost, pollination webs may be more vulnerable, resulting in sudden network collapse. However, lack of experimental studies examining the consequences of plant or pollinator extinction means that we know little about whether such collapses occur in nature.  
 
@@ -81,11 +81,11 @@ For information on how to use the R package [`feedr`](http://github.com/animalne
 
 Confused about the difference? See [About](#about).
 
-1. [__Loading/Importing Data__](#load)  
+1. [**Loading/Importing Data**](#load)  
     Data from the animalnexus database or imported
-2. [__Visualizations__](#vis)  
+2. [**Visualizations**](#vis)  
     Interactive maps which visualize movements between and presence around the RFID loggers.
-3. [__Transformations__](#trans)  
+3. [**Transformations**](#trans)  
     Transforming raw data into visits, presence, activity, etc
 
 ## Tutorial Data

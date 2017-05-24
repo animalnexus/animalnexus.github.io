@@ -2,7 +2,7 @@ name: "use-animalnexus"
 output_dir: "."
 navbar:
   type: inverse
-  title: "How to use animalnexus"
+  title: "About animalnexus"
   left:
     - text: "About"
       href: index.html
@@ -16,8 +16,8 @@ output:
     theme: readable
     highlight: textmate
     css: custom.css
-    toc: true
-    toc_depth: 2
+    toc: false
+    toc_depth: 4
     toc_float:
       collapsed: false
 
