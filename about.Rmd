@@ -24,7 +24,7 @@ The `feedr` package for R is a collection of functions and shiny apps designed t
 
 This package includes a companion website, <http://animalnexus.ca>, designed to provide a simple user-interface to access package functions and the animalnexus data base without having to use R.
 
-The R package provides all the functionality and is used by the web-app. Users familiar with R can download and install the R package, users who prefer a graphical user-interface can access most of the same functionality through the animal__nexus__ webapp.
+The R package provides all the functionality and is used by the web-app. Users familiar with R can download and install the R package, users who prefer a graphical user-interface can access most of the same functionality through the animal**nexus** webapp.
 
 
 ----------------------------
@@ -63,7 +63,7 @@ Pollination is essential to human wellbeing, as well as fundamental to maintenan
 
 This research will focus on the idea that plant-pollinator interactions can be lost if pollinator movement is restricted due to landscape fragmentation. The tropical hummingbird-plant system is ideal for this because the large size of hummingbirds in relation to other pollinators enables tracking of movements across whole landscapes.  
 
-This research will address two overarching questions: (1) What are the consequences of keystone plant decline and extinction to the broader pollination network? (2) Can pollinator movement and landscape connectivity buffer pollination networks against network collapse?  
+This research will address two overarching questions:(1) What are the consequences of keystone plant decline and extinction to the broader pollination network? (2) Can pollinator movement and landscape connectivity buffer pollination networks against network collapse?  
 
 To address these questions the research team will experimentally remove H. tortuosa in isolated and connected forest fragments to determine whether altered densities of this species affects (a) hummingbird movement, (b) plant reproduction and genetic diversity, and &#40;c) the structure of the pollination network. Hummingbird movement will be quantified for all species in the network using Radio-Frequency Identification Devices (RFID). This method, already successfully demonstrated in this project, will enable observations of the entire hummingbird pollinator community at an unprecedented temporal resolution (seconds) and spatial extent (1000 m radius landscapes).  
 
