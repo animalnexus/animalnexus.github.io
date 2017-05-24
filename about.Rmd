@@ -6,11 +6,11 @@ title: "About"
 source("setup.R")
 ```
 
-The animal__nexus__ project is large collaborative effort to develop tools for the observation, visualization, and analysis of animal movements registered by RFID feeders or other static recording stations.
+The animal**nexus** project is large collaborative effort to develop tools for the observation, visualization, and analysis of animal movements registered by RFID feeders or other static recording stations.
 
 Our goals are to provide a tool that is easy to use, yet powerful. We hope that this project will be useful to scientists, citizen scientists, students and educators alike.
 
-If you're interested in contributing functionality and/or coding to this project, check out our project on <a href = 'http://github.com/steffilazerte/feedr/' target = 'blank'>GitHub <img src = 'GitHub-Mark-32px.png'></a>
+If you're interested in contributing functionality and/or coding to this project, check out our project on <a href = 'http://github.com/animalnexus/feedr/' target = 'blank'>GitHub</a>.
 
 
 We welcome all involvement!
@@ -18,7 +18,7 @@ We welcome all involvement!
 ----------------------------
 
 
-## animal__nexus__ and `feedr`
+## animal**nexus** and `feedr`
 
 The `feedr` package for R is a collection of functions and shiny apps designed to help with loading, checking, transforming and visualizing RFID data, or other data types collected from static stations. The `feedr` package can be found on [github](https://github.com/animalnexus/feedr) along with basic installation instructions.
 
