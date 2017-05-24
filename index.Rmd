@@ -1,0 +1,29 @@
+---
+title: "Getting started"
+---
+
+```{r setup, include = F}
+source("setup.R")
+```
+
+<!-- Render entire site:
+rmarkdown::render_site("./docs/") -->
+
+
+This is an overview of how to use the shiny webapp [animalnexus](http://animalnexus.ca).
+
+1. [__Loading/Importing Data__](#load)  
+    Data from the animalnexus database or imported
+2. [__Visualizations__](#vis)  
+    Interactive maps which visualize movements between and presence around the RFID loggers.
+3. [__Transformations__](#trans)  
+    Transforming raw data into visits, presence, activity, etc
+
+## Tutorial Data
+Two data frames, `finches` and `chickadees` are included for the purpose of demonstration.
+
+LINK TO DATA
+
+-----------------------------------------
+Back to [top](#top)  
+Continue with [loading/importing data](load.html)

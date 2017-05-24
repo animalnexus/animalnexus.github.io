@@ -1,0 +1,27 @@
+name: "use-animalnexus"
+output_dir: "."
+navbar:
+  type: inverse
+  title: "How to use animalnexus"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "--------------"
+    - text: "Getting Data"
+      href: data.html
+    - text: "Visualizations"
+      href: visualizations.html
+    - text: "Transformations"
+      href: transformations.html
+    - text: "About"
+      href: about.html
+output:
+  html_document:
+    theme: readable
+    highlight: textmate
+    css: custom.css
+    toc: true
+    toc_depth: 2
+    toc_float:
+      collapsed: false
+
